@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+h1, h2 {
+    color: #33659F;
+    font-size: 2em;
+}
+
+.menu {
+    background-color: #003F87;
+    width: 100%;
+    font-family: serif, Arial, Helvetica;
+    font-size: 24px;
+    color: white;
+}
+
+.menuItem {
+    display: inline-block;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.dropdown {
+    display: none;
+}
+
+.menuItem:hover {
+    background-color: #668CB7;
+    cursor: pointer;
+}
+
+.menuItem:hover .dropdown {
+    height: 100px;
+    width: 200px;
+    background-color: #668CB7;
+    position: absolute;
+    top: 50px;
+    display: block;
+    color: white;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 5px;
+    max-width: 1200px;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}

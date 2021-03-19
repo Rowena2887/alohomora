@@ -25,3 +25,7 @@ ol {
 #navigation {
     list-style-type: none;
 }
+
+a {
+    color: black;
+}

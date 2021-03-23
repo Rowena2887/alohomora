@@ -22,6 +22,10 @@ ol {
     list-style-type: none;
 }
 
+li {
+    margin: 10px;
+}
+
 #navigation {
     list-style-type: none;
 }
